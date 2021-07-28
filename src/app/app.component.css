@@ -1,0 +1,23 @@
+.main{
+  display: flex;
+  justify-content: center;
+  background: #22364f;
+  height: 100vh;
+  color: wheat;
+}
+
+.side{
+
+}
+
+.image{
+  width: 85vw;
+  border: 5px black solid;
+  border-radius: 5px;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 7.5% 85% 7.5%;
+}
