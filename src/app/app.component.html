@@ -15,30 +15,118 @@
           <a href="https://www.instagram.com/nikostratil/" target="_blank">
             <img src="assets/linkedin.png" height="35" width="35">
           </a>
-
         </div>
         <div style="border-left: 2px solid black; height: 100px; align-self: center"></div>
       </div>
     </div>
-
   </div>
+  <div class="empty emptyleft"></div>
   <div class="main">
     <div style="display: flex; justify-content: center">
       <img src="assets/header4.jpg" class="image">
     </div>
 
-    <div class="about">
-      <h1>NIKOLAUS STRATIL-SAUER</h1>
+    <div class="about content">
+      <div style="display: flex; flex-direction: column">
+        <h1 style="align-self: center">NIKOLAUS STRATIL-SAUER</h1>
+        <img src="assets/DSC08732.jpg"
+             style="border-radius: 50%; border: 5px solid #c4d6f1; align-self: center" width="60%">
+      </div>
+      <div style="width: 100%; display: flex; justify-content: center">
+        <div style="width: 60%">
+          <h2>ABOUT ME</h2>
+          <p>Hi! My name is Niko and I was born and live in Vienna, Austria. My lifelong passion for technology always leads me to discover new skills.
+            I enjoy fullstack web development and also working with data. My main focus and motivation is always
+            <strong>solving real problems</strong> to make life better for everyone.</p>
+          <p>These are some of the technologies I'm proficient in:</p>
+          <div style="display: flex;">
+            <ul>
+              <li>Javascript</li>
+              <li>Angular</li>
+              <li>R</li>
+              <li>Java & Spring Boot</li>
+            </ul>
+            <ul>
+              <li>HTML & CSS</li>
+              <li>Typescript</li>
+              <li>SQL (MySQL, SQL Server)</li>
+              <li>node.js</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div>
-      Projects
-    </div>
+    <div class="divider"></div>
 
-    <div>
-      Footer
+    <div class="projects content">
+      <h1>My projects</h1>
+
+      <div class="projectCard">
+        <img src="assets/project1.PNG" width="55%">
+        <div class="projectText">
+          <h2 style="text-align: center">IT-TOOL</h2>
+          <p style="background: black; padding: 1em; text-align: justify; border-radius: 15px;">
+            Custom built web application for the IT departments needs. Managing inventory and employees. Featuring custom field
+            management, adding and deleting of users and items, authentication through Spring Security and extensive
+            search functionalities.
+          </p>
+          <div class="projectTech">
+            <span>MS SQL Server</span>
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Angular</span>
+            <span>Angular Material</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="projectCard">
+        <div class="projectText">
+          <h2 style="text-align: center">TWOFORONE AGENT</h2>
+          <p style="background: black; padding: 1em; text-align: justify; border-radius: 15px; margin-right: 1em; margin-left: -1em;">
+            University project building an AI agent for the african bean game Mancala. The agent is using Monte Carlo
+            Tree Search to find the optimal move in any given situation. Several game-specific heuristics are used
+            to further increase win percentage. Additionally the agent is using an opening and endgame book.
+          </p>
+          <div class="projectTech" style="text-align: right; margin-right: 2em;">
+            <span>Java</span>
+          </div>
+          <div>
+            View on <a href="https://github.com/nikostra/twoforoneagent" target="_blank">Github</a>.
+          </div>
+        </div>
+        <img src="assets/project2.PNG" width="55%">
+      </div>
+
+      <div class="projectCard">
+        <img src="assets/project3.png" width="55%">
+        <div class="projectText">
+          <h2 style="text-align: center">TRAIN TRAVEL TRACKER</h2>
+          <p style="background: black; padding: 1em; text-align: justify; border-radius: 15px;">
+            Web app to track train travel. Provides an easy and intuitive interface for entering trips and the option
+            to display trips, filter them and see chart-based stats about distance travelled, CO2 emissions saved and
+            other indicators. Based on the Google Maps API for displaying the map and getting accurate train travel
+            paths.
+          </p>
+          <div class="projectTech">
+            <span>MongoDB</span>
+            <span>NestJS</span>
+            <span>node.js</span>
+            <span>Angular</span>
+            <span>Angular Material</span>
+            <span>Google Maps API</span>
+          </div>
+          <div style="text-align: right; margin-top: 1em;">
+            In progress.
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
+  <div class="empty"></div>
   <div class="side rightSide">
     <div style="writing-mode: vertical-lr; text-orientation: mixed; align-self: flex-end;">
       <div style="display: flex; flex-direction: row">
