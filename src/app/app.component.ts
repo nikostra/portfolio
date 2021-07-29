@@ -8,3 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Portfolio';
 }
+
+// TODO check for design feedback, more reactive (hover etc) things
