@@ -60,7 +60,7 @@ h2{
 }
 
 .image{
-  width: 84vw;
+  width: 83vw;
   max-width: 1700px;
   border: 7px black solid;
   border-top: 0;
@@ -94,7 +94,7 @@ a img{
 .projectCard{
   border: 3px solid #c4d6f1;
   padding: 1em;
-  margin: 1em;
+  margin: 4em 1em;
   border-radius: 10px;
   display: flex;
   background: #354042;
