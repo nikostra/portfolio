@@ -18,4 +18,5 @@ export class AppComponent implements OnInit{
   }
 }
 
-// TODO check for design feedback, more reactive (hover etc) things
+// TODO check for design feedback
+// ng build --output-path docs --base-href /portfolio/
