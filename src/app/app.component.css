@@ -96,7 +96,6 @@ a img{
 }
 
 .projectImageRightText {
-  background: black;
   padding: 1em;
   text-align: justify;
   border-radius: 15px;
@@ -165,7 +164,7 @@ a:visited{
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    background: #354042;
+    background: #22364f;
   }
   .projectImage{
     width: 55%;
@@ -177,7 +176,6 @@ a:visited{
     margin-left: 1em;
   }
   .projectImageRightText{
-    background: black;
     padding: 1em;
     text-align: justify;
     border-radius: 15px;
