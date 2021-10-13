@@ -97,7 +97,7 @@ a img{
   margin: 4em 1em;
   border-radius: 10px;
   display: flex;
-  background: #354042;
+  background: #22364f;
 }
 
 .projectText{
@@ -115,8 +115,13 @@ a img{
   font-size: 0.75em;
   text-align: right;
   margin-left: 2.5em;
+  margin-bottom: 1em;
   display: inline-block;
   width: max-content;
+  border: 3px black solid;
+  border-radius: 10px;
+  background: black;
+  padding: 0.25em;
 }
 
 a:visited{
